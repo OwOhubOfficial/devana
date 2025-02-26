@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7775919720:AAG4wWD_sF85TxIVvG_a37tmXQiDvbipwn4")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "20970265"))
@@ -19,10 +19,10 @@ APP_ID = int(os.environ.get("APP_ID", "20970265"))
 API_HASH = os.environ.get("API_HASH", "f0501ae9be5035df232a4cfe2510cf06")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002333767355"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7087447552"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -31,15 +31,15 @@ PORT = os.environ.get("PORT", "8080")
 DB_URI = "mongodb+srv://owo:owo@$1000@cluster0.rrw4p.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DB_NAME = os.environ.get("DATABASE_NAME", "owo")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "moneycase.link")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "710b7ed8fdc5f89e9036000cc10121921e7732f1")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "Modijiurl.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "bab1be6391951029bd12677491a7a702ff877a07")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","gojfsi/2")
 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002345539719"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
