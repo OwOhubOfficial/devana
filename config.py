@@ -28,8 +28,8 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "7087447552"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = "mongodb+srv://owo:owo@$1000@cluster0.rrw4p.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-DB_NAME = os.environ.get("DATABASE_NAME", "owo")
+DB_URI = "mongodb+srv://owohubofficial:owohubofficial@cluster0.h4qzd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+DB_NAME = os.environ.get("DATABASE_NAME", "owohubofficial")
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "Modijiurl.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "bab1be6391951029bd12677491a7a702ff877a07")
