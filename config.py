@@ -10,36 +10,36 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7775919720:AAG4wWD_sF85TxIVvG_a37tmXQiDvbipwn4")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7899470544:AAHJyiO00V28q72Eu-kSQdmMq8DfBN43g1E")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "20970265"))
+APP_ID = int(os.environ.get("APP_ID", "20481827"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "f0501ae9be5035df232a4cfe2510cf06")
+API_HASH = os.environ.get("API_HASH", "932d86ccf1b6fe4ff19fa80b43b5d470")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002333767355"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002561336318"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "7087447552"))
 
 #Port
-PORT = os.environ.get("PORT", "8080")
+PORT = os.environ.get("PORT", "8051")
 
 #Database 
-DB_URI = "mongodb+srv://owohubofficial:owohubofficial@cluster0.h4qzd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+DB_URI = "mongodb+srv://owohubofficial:owohubofficial@cluster0.d1orvlf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DB_NAME = os.environ.get("DATABASE_NAME", "owohubofficial")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "Modijiurl.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "bab1be6391951029bd12677491a7a702ff877a07")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "linkcents.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "3cc66497d764be6fb37dbc9428d0a9a5ff2ef1b3")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","gojfsi/2")
 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002345539719"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002585958587"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
