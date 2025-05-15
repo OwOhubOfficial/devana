@@ -31,15 +31,15 @@ PORT = os.environ.get("PORT", "8052")
 DB_URI = "mongodb+srv://owohubofficial:owohubofficial@cluster0.e3lprlv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DB_NAME = os.environ.get("DATABASE_NAME", "owohubofficial")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "linkcents.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "3f2c55f319f3e26931369e8d47f2c82c855829dd")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "bharatlinks.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "cf8519456db6aae68593404211e85f871e2e12eb")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","gojfsi/2")
 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002335656658"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002293426486"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
